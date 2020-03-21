@@ -20,7 +20,7 @@ This repository contains the CKFinder 3 Package for Laravel 5.5+.
 1. Add a Composer dependency and install the package.
 
     ```bash
-    composer require ckfinder/ckfinder-laravel-package
+    composer require bkstar123/laravel-ckfinder
     ```
 
 2. Run the command to download the CKFinder code.
