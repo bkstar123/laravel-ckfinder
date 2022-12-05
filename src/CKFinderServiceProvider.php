@@ -30,7 +30,7 @@ class CKFinderServiceProvider extends ServiceProvider
             return;
         }
 
-        $this->app->bind('ckfinder.connector', function() {
+        $this->app->bind('ckfinder.connector', function () {
             if (!class_exists('\CKSource\CKFinder\CKFinder')) {
                 throw new \Exception(
                     "Couldn't find CKFinder conector code. ".
